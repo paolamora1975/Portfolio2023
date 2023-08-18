@@ -1,0 +1,15 @@
+#section-about{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    padding: 50px;
+    img{
+        object-fit: cover;
+    }
+    p{
+        font-size: $fuente-chica;
+    }
+    h2{
+        font-size: $fuente-mediana;
+    }
+}

@@ -1,0 +1,19 @@
+#section-home{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    animation: intro 2s;
+    padding: 50px;
+    
+    }
+    strong{
+        font-size: $fuente-mediana;
+        span{
+            color: $color-fondo;
+        }
+    }
+
+
+#perfil{
+    font-size: $fuente-chica;
+}

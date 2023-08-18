@@ -1,0 +1,130 @@
+@keyframes intro {
+  from {
+    opacity: 0;
+    position: relative;
+    bottom: -20px;
+  }
+  to {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+#section-home {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  animation: intro 2s;
+  padding: 50px;
+}
+
+strong {
+  font-size: 30px;
+}
+strong span {
+  color: rgb(14, 148, 153);
+}
+
+#perfil {
+  font-size: 15px;
+}
+
+#section-about {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  padding: 50px;
+}
+#section-about img {
+  object-fit: cover;
+}
+#section-about p {
+  font-size: 15px;
+}
+#section-about h2 {
+  font-size: 30px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+* {
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(14, 148, 153);
+  height: 15vh;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  color: rgb(49, 47, 46);
+  font-size: 45px;
+}
+header h2 {
+  color: rgb(243, 236, 236);
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+main {
+  padding-left: 200px;
+  padding-right: 200px;
+  height: 80vh;
+  background-color: rgb(243, 236, 236);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 99999px;
+}
+
+button {
+  width: 150;
+  font-size: 15px;
+  background-color: rgb(14, 148, 153);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(27, 241, 206);
+}
+
+footer {
+  height: 5vh;
+  background-color: rgb(14, 148, 153);
+  font-size: 15px;
+  display: flex;
+}
+footer p {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#contacto {
+  display: flex;
+}
